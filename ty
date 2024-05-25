@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYMAN & CO - Chocolat Artisanal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AYMAN & CO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Nos Produits</a></li>
+                <li><a href="apropos.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Le goût du chocolat authentique</h2>
+            <p>Découvrez nos produits artisanaux.</p>
+            <a href="produits.html" class="btn">Nos Produits</a>
+        </section>
+
+        <section class="best-sellers">
+            <h2>Nos Best-sellers</h2>
+            <div class="product">
+                <img src="chocolat1.jpg" alt="Chocolat noir">
+                <h3>Chocolat Noir</h3>
+                <p>Délicieux chocolat noir.</p>
+                <p class="price">€10.00</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <!-- Ajoutez plus de produits ici -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AYMAN & CO. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
